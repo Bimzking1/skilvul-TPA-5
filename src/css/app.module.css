@@ -1,0 +1,28 @@
+html {
+  line-height: 1.15;
+  display: flex;
+  justify-content: center;
+  background-color: #97e3ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Bradley Hand, cursive;
+}
+
+.app{
+  text-align: center;
+  margin: 50px 20px;
+  background-color: #97e3ff;
+}
+
+.title{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.content{
+  margin-top: 25px;
+}

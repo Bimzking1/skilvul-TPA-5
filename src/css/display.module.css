@@ -1,0 +1,48 @@
+.dontHave{
+    margin: 40px 0px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonsDetail{
+    background-color: rgb(53, 152, 245);
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+
+.buttonsDetail:hover{
+    background-color: rgb(17, 140, 255);
+}
+
+@media screen and (max-width: 992px) {
+    .buttons{
+        gap: 10px;
+    }
+}
+
+.buttonReset{
+    background-color: rgb(155, 0, 0);
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 20px 0px;
+    width: 100px;
+    color: rgb(204, 204, 204);
+}
+
+.ulContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.displayTask{
+    border: none;
+}
